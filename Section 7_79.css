@@ -1,0 +1,41 @@
+.jumbotron{
+  background-color:#F1F1FA;
+  color: #9573FD
+}
+.navbar-inverse{
+  background-color: #EEEEEE;
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand{
+  color: #AC009F
+}
+#Opener{
+  text-align: center;
+  padding-top: 25%;
+  font-weight: 800;
+  color: white;
+}
+body{
+  background-image:url(https://images.unsplash.com/photo-1519120079331-0d0216ff1cc6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0be30bfe5209a79bcfab5d4141b5d874&auto=format&fit=crop&w=1324&q=80);
+  background-size: cover;
+  background-position: top;
+}
+h1{
+  font-weight: 700;
+  font-size: 5em;
+  text-shadow: 2px 4px 2px red,
+               0px 8px 2px orange,
+               0px 12px 2px yellow;
+}
+html{
+  height: 100%
+}
+hr{
+  width: 400px;
+  border-color: white;
+  border-bottom: 1px solid rgba(0,0,0,0.3)
+
+}

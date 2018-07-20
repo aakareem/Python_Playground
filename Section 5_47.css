@@ -1,0 +1,10 @@
+body{
+  background: orange
+}
+#groceries{
+  border: 5px solid green
+}
+
+.slidebox {
+  border: 10px solid black
+}

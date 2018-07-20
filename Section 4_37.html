@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Restration Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form class="" action="" method="post">
+      <label for="First"> First Name</label>
+      <input type="text" name="" value="" placeholder="First Name" required id="First">
+      <label for="Last">Last Name</label>
+      <input type="text" name="Last Name" value="" placeholder="Last Name"required id="Last">
+      <div>
+        <label for="M">Male</label>
+        <input type="radio" name="Gender" value="Male" id="M">
+        <label for="F">Female</label>
+        <input type="radio" name="Gender" value="Female" id="F">
+        <label for="O">Other</label>
+        <input type="radio" name="Gender" value="Other" id="O">
+      </div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" value="" id="email" required>
+      <label for="pass">Password:</label>
+      <input type="password" name="password" value="" id="pass" pattern=".{5,10}" required title="Min 5 characters max 10 characters">
+      <div>
+        <label for="date">Birthdate:</label>
+        <input type="date" name="Month" value="">
+      </div>
+      <div>
+        <label for="altday">Day</label>
+        <select class="" name="alt day"id="altday" label="Day">
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+        </select>
+        <label for="altmonth">Month</label>
+        <select class="" name="alt year"id="altmonth" placeholder="Month">
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+        </select>
+        <label for="altyear">Year</label>
+        <select class="" name="alt year"id="altyear" placeholder="Year">
+          <option value="1993">1993</option>
+          <option value="2018">2018</option>
+          <option value="2009">2993</option>
+        </select>
+      </div>
+      <label for="terms">I agree to the terms and conditions</label>
+      <input type="checkbox" name="terms & conditions" value="Agree" id="terms">
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
